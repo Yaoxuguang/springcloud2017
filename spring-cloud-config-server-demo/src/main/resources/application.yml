@@ -1,0 +1,11 @@
+### 配置应用服务的名称
+spring:
+  application:
+    name: spring-cloud-config-server-demo
+
+### 配置HTTP服务端口
+server:
+  port: 9090
+
+### 配置文件存储的git仓库地址
+

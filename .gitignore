@@ -1,0 +1,36 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+observer-pattern/src/main/resources/
+observer-pattern/src/test/
+/spring-cloud-config-client/.mvn/
+/spring-cloud-config-client/mvnw
+/spring-cloud-config-client/mvnw.cmd
+/observer-pattern/observer-pattern.iml
+/spring-cloud-config-client/spring-cloud-config-client.iml
+/spring-cloud-config-server-demo/.mvn/
+/spring-cloud-config-server-demo/mvnw
+/spring-cloud-config-server-demo/mvnw.cmd
+/spring-cloud-config-server-demo/spring-cloud-config-server-demo.iml
+/gp-springcloud2017.iml

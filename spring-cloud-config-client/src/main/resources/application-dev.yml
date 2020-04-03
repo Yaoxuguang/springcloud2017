@@ -1,0 +1,7 @@
+server:
+  port: 9090
+endpoints:
+  env:
+    sensitive: true
+  beans:
+    sensitive: true
