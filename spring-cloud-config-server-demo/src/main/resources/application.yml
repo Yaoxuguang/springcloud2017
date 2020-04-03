@@ -2,10 +2,22 @@
 spring:
   application:
     name: spring-cloud-config-server-demo
-
+  ### 配置文件存储的git仓库地址
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Yaoxuguang/springcloud2017/cofig
 ### 配置HTTP服务端口
 server:
   port: 9090
 
-### 配置文件存储的git仓库地址
 
+### 全局关闭 Actuator 安全
+# management.security.enabled = false
+### 细粒度的开放 Actuator Endpoints
+
+
+endpoints:
+  env:
+    sensitive: false
