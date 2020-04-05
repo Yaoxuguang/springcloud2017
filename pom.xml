@@ -27,6 +27,8 @@
 
     <modules>
         <module>observer-pattern</module>
+        <module>spring-cloud-config-client</module>
+        <module>spring-cloud-config-server-demo</module>
     </modules>
 
     <dependencyManagement>

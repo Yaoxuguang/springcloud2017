@@ -1,1 +1,21 @@
-
+### 配置客户端应用名称
+spring:
+  application:
+    name: spring-cloud-config-client-demo
+### 全局关闭 Actuator 安全
+management:
+  security:
+    enabled: false
+### 细粒度的开放 Actuator Endpoints
+### sensitive 关注是敏感性，安全
+endpoints:
+  env:
+    sensitive: false
+  refresh:
+    sensitive: false
+  beans:
+    sensitive: false
+  health:
+    sensitive: false
+  actuator:
+    sensitive: false

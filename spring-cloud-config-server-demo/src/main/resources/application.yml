@@ -7,14 +7,19 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Yaoxuguang/springcloud2017/cofig
+          uri: https://github.com/Yaoxuguang/springcloud2017
+          username: yaoxuguang_china@126.com
+          password: 15035355441#yao
+          search-paths: config/
 ### 配置HTTP服务端口
 server:
   port: 9090
 
 
 ### 全局关闭 Actuator 安全
-# management.security.enabled = false
+management:
+  security:
+    enabled: false
 ### 细粒度的开放 Actuator Endpoints
 
 
