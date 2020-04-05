@@ -1,0 +1,17 @@
+### eureka注册中心应用名
+spring:
+  application:
+    name: eureka-server-demo
+
+### HTTP端口号
+server:
+  port: 9090
+
+eureka:
+  client:
+    ### 禁止eureka服务端自我注册
+    register-with-eureka: false
+    ### 注册中心的服务器，没有必要再去检索服务
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka

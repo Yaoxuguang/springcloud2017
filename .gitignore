@@ -38,3 +38,7 @@ observer-pattern/src/test/
 /spring-cloud-config-client-demo/mvnw
 /spring-cloud-config-client-demo/mvnw.cmd
 /spring-cloud-config-client-demo/spring-cloud-config-client-demo.iml
+/spring-cloud-eureka-server-demo/.mvn/
+/spring-cloud-eureka-server-demo/mvnw
+/spring-cloud-eureka-server-demo/mvnw.cmd
+/spring-cloud-eureka-server-demo/spring-cloud-eureka-server-demo.iml
