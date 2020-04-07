@@ -1,0 +1,21 @@
+### 应用名
+spring:
+  application:
+    name: user-api-consumer
+### http端口
+server:
+  port: 8080
+### Eureka 注册中心服务器端口
+eureka:
+  server:
+    port: 9090
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:${eureka.server.port}/eureka
+  instance:
+    instanceId: ${spring.cloud.client.ipAddress}:${server.port}
+
+### Management 安全失效
+management:
+  security:
+    enabled: false
