@@ -15,9 +15,9 @@ import org.springframework.web.client.RestTemplate;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class UserApiConsumerRestApiController {
+public class UserApiConsumerRestApiBootstrap {
     public static void main(String[] args) {
-        SpringApplication.run(UserApiConsumerRestApiController.class,args);
+        SpringApplication.run(UserApiConsumerRestApiBootstrap.class,args);
     }
 
     @Bean
