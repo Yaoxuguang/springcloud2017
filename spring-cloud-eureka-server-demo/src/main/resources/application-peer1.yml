@@ -2,10 +2,6 @@
 spring:
   application:
     name: eureka-server-demo
-  profiles:
-    active: peer1
-
-### 多环境激活
 
 ### HTTP端口号
 server:
@@ -16,6 +12,6 @@ eureka:
     ### 禁止eureka服务端自我注册
     register-with-eureka: false
     ### 注册中心的服务器，没有必要再去检索服务
-    fetch-registry: false
+    fetch-registry: true
     serviceUrl:
-      defaultZone: http://localhost:${server.port}/eureka
+      defaultZone: http://localhost:9091/eureka

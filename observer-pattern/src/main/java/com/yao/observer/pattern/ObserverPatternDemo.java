@@ -9,7 +9,7 @@ import java.util.Observable;
  */
 public class ObserverPatternDemo {
     public static void main(String[] args) {
-        MyObservable observable = new MyObservable();//测试git的分支合并-test-branch
+        MyObservable observable = new MyObservable(); //测试git的分支合并操作-master
         observable.addObserver((o, value) -> System.out.println(value));
         observable.setChanged();
         observable.notifyObservers("hello world");
